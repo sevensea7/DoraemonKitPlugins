@@ -778,7 +778,7 @@
 		0CCF245B24C4E308D1542F00B2CB4294 /* DoraemonDBCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonDBCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/Sanbox/VC/DB/DoraemonDBCell.m; sourceTree = "<group>"; };
 		0CFA1974C45A291C251C7AE787F78B54 /* DoraemonTimeProfilerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonTimeProfilerViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/DoraemonTimeProfilerViewController.h; sourceTree = "<group>"; };
 		0D3F3B6C7D4AD810C6DDF4A69D741EE2 /* DoraemonKit-DoraemonKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DoraemonKit-DoraemonKit"; path = DoraemonKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D84B6B5AAA70E92A26018CD7381B673 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D84B6B5AAA70E92A26018CD7381B673 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0DBC3B5B0AA59276B9E5F7B2BB6521F1 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MemoryLeak.h"; path = "MLeaksFinder/NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
 		0E0C9E62A5B3C6DD87DFF11FC7362372 /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MemoryLeak.h"; path = "MLeaksFinder/UIView+MemoryLeak.h"; sourceTree = "<group>"; };
 		0E6339082AA28EF83AE65D4793BF17EB /* DoraemonCrashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCrashViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/Crash/DoraemonCrashViewController.h; sourceTree = "<group>"; };
@@ -932,7 +932,7 @@
 		4740ACB8592DA31E71A6FCE9AF3464B8 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "MLeaksFinder/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
 		4743C2A522E8F9F020F707721904D289 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
 		474FF8AF7DC956A8F29C7B142CAC87DA /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		478EE6C2584914DEEF7D00A0C91588EC /* doraemon_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = doraemon_fishhook.c; path = iOS/DoraemonKit/Src/Core/Util/fishhook/doraemon_fishhook.c; sourceTree = "<group>"; };
+		478EE6C2584914DEEF7D00A0C91588EC /* doraemon_fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = doraemon_fishhook.c; path = iOS/DoraemonKit/Src/Core/Util/fishhook/doraemon_fishhook.c; sourceTree = "<group>"; };
 		47B0F21FA3492075230EF37D8D3E5980 /* DoraemonHealthHomeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonHealthHomeView.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Health/View/Home/DoraemonHealthHomeView.h; sourceTree = "<group>"; };
 		47D22A41E96974010AB7A2B03B14FFF7 /* DKHierarchyInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DKHierarchyInfoView.m; path = iOS/DoraemonKit/Src/Core/Plugin/UI/Hierarchy/UserInterface/View/DKHierarchyInfoView.m; sourceTree = "<group>"; };
 		47DC411A900EDE94E2F719284DB0E5E6 /* NSObject+Doraemon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Doraemon.m"; path = "iOS/DoraemonKit/Src/Core/Category/NSObject+Doraemon.m"; sourceTree = "<group>"; };
@@ -986,7 +986,7 @@
 		5782618727B28A7BA2DA0240BC40190F /* DoraemonHealthHomeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonHealthHomeView.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Health/View/Home/DoraemonHealthHomeView.m; sourceTree = "<group>"; };
 		57B17D692A02E0FCB8866A48D75F9729 /* DoraemonHealthInstructionsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonHealthInstructionsView.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Health/View/Instructions/DoraemonHealthInstructionsView.m; sourceTree = "<group>"; };
 		5932A29F9EFF05A06EF2476159746C95 /* MLeaksMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksMessenger.h; path = MLeaksFinder/MLeaksMessenger.h; sourceTree = "<group>"; };
-		5995F42CF826BFE0AE0A642BDD9F6334 /* DoraemonTimeProfilerCore.c */ = {isa = PBXFileReference; includeInIndex = 1; name = DoraemonTimeProfilerCore.c; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/Function/DoraemonTimeProfilerCore.c; sourceTree = "<group>"; };
+		5995F42CF826BFE0AE0A642BDD9F6334 /* DoraemonTimeProfilerCore.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = DoraemonTimeProfilerCore.c; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/Function/DoraemonTimeProfilerCore.c; sourceTree = "<group>"; };
 		5A1689200B1D287E3FAA26502226F0D1 /* DoraemonOscillogramViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonOscillogramViewController.h; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramViewController.h; sourceTree = "<group>"; };
 		5A1EAF0E219586246818E2B7C16FF5D1 /* DoraemonTimeProfilerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonTimeProfilerCore.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/TimeProfiler/Function/DoraemonTimeProfilerCore.h; sourceTree = "<group>"; };
 		5AAA0C77893A03711EDECD204D2ADC6D /* DoraemonOscillogramWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonOscillogramWindow.h; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramWindow.h; sourceTree = "<group>"; };
@@ -1167,7 +1167,7 @@
 		9CCA1A19D695FA028DB700DAF2C8B056 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		9CCCE6C1AD277D7C5985FB88752EC74C /* DoraemonNetFlowDetailCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNetFlowDetailCell.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/NetFlow/Detail/DoraemonNetFlowDetailCell.h; sourceTree = "<group>"; };
 		9D5F654628217F75146D14D08DDF1A6F /* DoraemonMockApiCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonMockApiCell.m; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/List/Cell/DoraemonMockApiCell.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA26D0ADBECC692DDF9E990C652FD8D /* DoraemonViewAlignManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonViewAlignManager.h; path = iOS/DoraemonKit/Src/Core/Plugin/UI/ViewAlign/Function/DoraemonViewAlignManager.h; sourceTree = "<group>"; };
 		9DF229ADD70093F110FCA48B62D08D57 /* DoraemonH5Plugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonH5Plugin.m; path = iOS/DoraemonKit/Src/Core/Plugin/Common/H5/DoraemonH5Plugin.m; sourceTree = "<group>"; };
 		9E164D9751B21C870A2769A2C2A34D8A /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MemoryLeak.h"; path = "MLeaksFinder/UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
@@ -1258,7 +1258,7 @@
 		BED790CCDE7A89C877B163A306DAE5FC /* DoraemonMockSearchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonMockSearchView.h; path = iOS/DoraemonKit/Src/Core/Plugin/Platform/Mock/View/Search/DoraemonMockSearchView.h; sourceTree = "<group>"; };
 		BEE12ED2EB9EAD780BAFD99B674907BC /* DoraemonANRPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonANRPlugin.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/ANR/DoraemonANRPlugin.h; sourceTree = "<group>"; };
 		BF159992C568DF3594832CB372F3D96A /* DoraemonNSUserDefaultsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonNSUserDefaultsViewController.h; path = iOS/DoraemonKit/Src/Core/Plugin/Common/NSUserDefaults/ViewControllers/DoraemonNSUserDefaultsViewController.h; sourceTree = "<group>"; };
-		BFC42FFA58537A16109B8A8E7E8D9F40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BFC42FFA58537A16109B8A8E7E8D9F40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C053487526ECC9DAE7A315E74CB077CC /* DoraemonCopyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonCopyLabel.h; path = iOS/DoraemonKit/Src/Core/CommonUI/Label/DoraemonCopyLabel.h; sourceTree = "<group>"; };
 		C0B3E9B61A31740B78C0425C023A37DA /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MemoryLeak.m"; path = "MLeaksFinder/UIView+MemoryLeak.m"; sourceTree = "<group>"; };
 		C1BF87CEF8C8B4E463447DC9FD6C307B /* DoraemonBuriedPointManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoraemonBuriedPointManager.m; path = iOS/DoraemonKit/Src/Core/Util/BuriedPoint/DoraemonBuriedPointManager.m; sourceTree = "<group>"; };
@@ -1280,7 +1280,7 @@
 		C5577D844A7EA0E837436A15DDB65DBA /* DoraemonMLeaksFinderPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DoraemonMLeaksFinderPlugin.m; sourceTree = "<group>"; };
 		C575B8CF78D405E7903A05AB9B308D22 /* DoraemonOscillogramWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonOscillogramWindowManager.h; path = iOS/DoraemonKit/Src/Core/CommonUI/Oscillogram/DoraemonOscillogramWindowManager.h; sourceTree = "<group>"; };
 		C5E5C1D7343062DCCEB5F0B5B9A0F0A8 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
-		C67AC52E79F759EE18A2992B69C9988E /* DoraemonKitPlugins.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DoraemonKitPlugins.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C67AC52E79F759EE18A2992B69C9988E /* DoraemonKitPlugins.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DoraemonKitPlugins.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		C76F7F88DE5CD71930377E0FF86B6C2D /* UIViewController+DoraemonVCProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DoraemonVCProfiler.m"; path = "iOS/DoraemonKit/Src/Core/Plugin/Performance/VCProfiler/UIViewController+DoraemonVCProfiler.m"; sourceTree = "<group>"; };
 		C8CF854DA642B029A0965A1639CC6E79 /* Pods-DoraemonKitPlugins_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-DoraemonKitPlugins_Example"; path = "libPods-DoraemonKitPlugins_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DB0DF103F6B1708F8AAA0CE5EC59E6 /* DoraemonUIProfileWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoraemonUIProfileWindow.h; path = iOS/DoraemonKit/Src/Core/Plugin/Performance/UIProfile/Function/DoraemonUIProfileWindow.h; sourceTree = "<group>"; };
@@ -1601,7 +1601,6 @@
 				3759C5947619A2306DE483FF46FF5F72 /* Support Files */,
 				7BEEA39252717E110F6E468197F72385 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1637,7 +1636,6 @@
 				DAE22E2FFB77BC7658FC2EBBD0156691 /* UIViewController+MemoryLeak.m */,
 				6CC761359E080ECDDB1CADC02647C6AD /* Support Files */,
 			);
-			name = MLeaksFinder;
 			path = MLeaksFinder;
 			sourceTree = "<group>";
 		};
@@ -1647,7 +1645,6 @@
 				1BBF8E7DE2B250946E8CDB585C858AF0 /* standard */,
 				E02C521DD5C21258244AB640E56FBDC0 /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -2253,7 +2250,6 @@
 				F281FF954185C8EE54E5DBD33E654CCA /* WebDAV */,
 				ED51FB0001A1F0A0500611CCA4F22659 /* WebUploader */,
 			);
-			name = GCDWebServer;
 			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
@@ -2351,7 +2347,6 @@
 				77F6DC383D2DFA7835C39FC094B993F9 /* Core */,
 				AD4B1C618E8348DBBB271ABE23C142E7 /* Support Files */,
 			);
-			name = DoraemonKit;
 			path = DoraemonKit;
 			sourceTree = "<group>";
 		};
@@ -3759,8 +3754,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

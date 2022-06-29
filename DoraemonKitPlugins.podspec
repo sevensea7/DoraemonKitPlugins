@@ -6,9 +6,14 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+# pod cache clean --all
+# pod spec lint DoraemonKitPlugins.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/sevensea996/Specs.git' --allow-warnings --use-libraries --verbose --skip-import-validation
+# pod repo push MySpecs DoraemonKitPlugins.podspec --allow-warnings --use-libraries --skip-import-validation
+
+
 Pod::Spec.new do |s|
   s.name             = 'DoraemonKitPlugins'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Plugins For DoraemonKit.'
 
 # This description is used to generate tags and improve search results.

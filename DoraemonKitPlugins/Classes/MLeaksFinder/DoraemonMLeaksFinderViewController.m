@@ -14,7 +14,6 @@ static NSString * const kDoraemonMemoryLeakAlertKey = @"doraemon_memory_leak_ale
 
 @interface DoraemonMLeaksFinderViewController () <DoraemonSwitchViewDelegate>
 
-@property (nonatomic, strong) DoraemonCellSwitch *feishuSwitchView;
 @property (nonatomic, strong) DoraemonCellSwitch *alertSwitchView;
 
 @end
@@ -25,7 +24,6 @@ static NSString * const kDoraemonMemoryLeakAlertKey = @"doraemon_memory_leak_ale
     [super viewDidLoad];
     
     self.title = @"内存泄漏检测";
-    [self.view addSubview:self.feishuSwitchView];
     [self.view addSubview:self.alertSwitchView];
 }
 
@@ -48,7 +46,7 @@ static NSString * const kDoraemonMemoryLeakAlertKey = @"doraemon_memory_leak_ale
 
 - (DoraemonCellSwitch *)alertSwitchView {
     if (!_alertSwitchView) {
-        _alertSwitchView = [[DoraemonCellSwitch alloc] initWithFrame:CGRectMake(0, self.feishuSwitchView.doraemon_bottom, self.view.doraemon_width, 53)];
+        _alertSwitchView = [[DoraemonCellSwitch alloc] initWithFrame:CGRectMake(0, self.bigTitleView.doraemon_bottom, self.view.doraemon_width, 53)];
         _alertSwitchView.delegate = self;
         NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
         BOOL memoryLeakAlert = [userDefaults boolForKey:kDoraemonMemoryLeakAlertKey];
