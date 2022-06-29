@@ -1,0 +1,16 @@
+source 'https://github.com/sevensea996/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+#use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DoraemonKitPlugins_Example' do
+  pod 'DoraemonKitPlugins', :path => '../'
+  
+  target 'DoraemonKitPlugins_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

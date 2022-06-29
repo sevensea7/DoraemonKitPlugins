@@ -1,0 +1,1 @@
+../../../../../DoraemonKitPlugins/Classes/DoraemonKitPluginManager.h

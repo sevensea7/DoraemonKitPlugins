@@ -1,0 +1,29 @@
+{
+  "name": "DoraemonKitPlugins",
+  "version": "0.1.0",
+  "summary": "Plugins For DoraemonKit.",
+  "homepage": "https://github.com/sevensea996/DoraemonKitPlugins",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sevensea996": "weihaideng@126.com"
+  },
+  "source": {
+    "git": "https://github.com/sevensea996/DoraemonKitPlugins.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DoraemonKitPlugins/Classes/**/*",
+  "dependencies": {
+    "DoraemonKit/Core": [
+      "3.1.2"
+    ],
+    "MLeaksFinder": [
+      "2.0.0"
+    ]
+  }
+}

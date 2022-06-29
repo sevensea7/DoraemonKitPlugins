@@ -1,0 +1,6 @@
+framework module DoraemonKitPlugins {
+  umbrella header "DoraemonKitPlugins-umbrella.h"
+
+  export *
+  module * { export * }
+}

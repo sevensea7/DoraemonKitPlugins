@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DoraemonKit/Core (3.1.2):
+    - AFNetworking
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - DoraemonKitPlugins (0.1.0):
+    - DoraemonKit/Core (= 3.1.2)
+    - MLeaksFinder (= 2.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - MLeaksFinder (2.0.0)
+
+DEPENDENCIES:
+  - DoraemonKitPlugins (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DoraemonKit
+    - FMDB
+    - GCDWebServer
+  https://github.com/sevensea996/Specs.git:
+    - MLeaksFinder
+
+EXTERNAL SOURCES:
+  DoraemonKitPlugins:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DoraemonKit: 0a040ae24386654e2a2d2c8d029f5ff5837de3c3
+  DoraemonKitPlugins: bd174d05ba519c3f226c7909ffb556a5803a3530
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  MLeaksFinder: b84f1ef44d4a64582259e8ab45b8f6c3b6090e4c
+
+PODFILE CHECKSUM: 9bb5dd1a3545429e531a62a021e1d4ac257a6d21
+
+COCOAPODS: 1.11.3
