@@ -7,7 +7,7 @@
 
 #import "DoraemonKitPluginManager.h"
 #import <DoraemonKit/DoraemonManager.h>
-#import <MLeaksFinder/NSObject+MemoryLeak.h>
+#import "WMNetworkObserver.h"
 
 @implementation DoraemonKitPluginManager
 
@@ -19,8 +19,15 @@
                                    desc:@"内存泄漏"
                              pluginName:@"DoraemonMLeaksFinderPlugin"
                                atModule:@"性能检测"];
-    NSArray *mLeakClassNameArray = @[@"WMAssetsPicker"];
-    [self addClassNamesToWhitelist:mLeakClassNameArray];
+    
+    [doraemonManager addPluginWithTitle:@"网络监测"
+                                   icon:@"doraemon_net"
+                                   desc:@"网络监测"
+                             pluginName:@"WMDoraemonNetworkPlugin"
+                               atModule:@"性能检测"];
+    // 开启网络监测
+    WMNetworkObserver.enabled = YES;
+    
 }
 
 @end

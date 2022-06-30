@@ -13,7 +13,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DoraemonKitPlugins'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Plugins For DoraemonKit.'
 
 # This description is used to generate tags and improve search results.
@@ -22,16 +22,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-#   s.description      = <<-DESC
-# TODO: Add long description of the pod here.
-#                        DESC
+   s.description      = 'Add Custom Plugins For DoraemonKit.'
 
   s.homepage         = 'https://github.com/sevensea996/DoraemonKitPlugins'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sevensea996' => 'weihaideng@126.com' }
   s.source           = { :git => 'https://github.com/sevensea996/DoraemonKitPlugins.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
@@ -43,7 +40,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'DoraemonKit/Core', '3.1.2'
   s.dependency 'MLeaksFinder', '2.0.0'
 end

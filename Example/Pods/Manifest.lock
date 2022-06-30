@@ -20,7 +20,7 @@ PODS:
     - GCDWebServer
     - GCDWebServer/WebDAV
     - GCDWebServer/WebUploader
-  - DoraemonKitPlugins (0.1.0):
+  - DoraemonKitPlugins (0.1.1):
     - DoraemonKit/Core (= 3.1.2)
     - MLeaksFinder (= 2.0.0)
   - FMDB (2.7.5):
@@ -54,7 +54,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   DoraemonKit: 0a040ae24386654e2a2d2c8d029f5ff5837de3c3
-  DoraemonKitPlugins: bd174d05ba519c3f226c7909ffb556a5803a3530
+  DoraemonKitPlugins: d4ed86e32d2e5392656d4af40c61d900abcd0fb5
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   MLeaksFinder: b84f1ef44d4a64582259e8ab45b8f6c3b6090e4c
