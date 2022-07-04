@@ -1,7 +1,8 @@
 {
   "name": "DoraemonKitPlugins",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "Plugins For DoraemonKit.",
+  "description": "Add Custom Plugins For DoraemonKit.",
   "homepage": "https://github.com/sevensea996/DoraemonKitPlugins",
   "license": {
     "type": "MIT",
@@ -12,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/sevensea996/DoraemonKitPlugins.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "source_files": "DoraemonKitPlugins/Classes/**/*",
   "dependencies": {
@@ -23,7 +24,7 @@
       "3.1.2"
     ],
     "MLeaksFinder": [
-      "2.0.0"
+      "2.0.1"
     ]
   }
 }

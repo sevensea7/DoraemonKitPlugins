@@ -9,7 +9,7 @@ QQ group: 482121244
 # Installation
 ```
 source 'https://github.com/sevensea996/Specs.git'
-pod 'MLeaksFinder', '2.0.0'
+pod 'MLeaksFinder', '2.0.1'
 ```
 MLeaksFinder comes into effect after `pod install`, there is no need to add any code nor to import any header file.
 

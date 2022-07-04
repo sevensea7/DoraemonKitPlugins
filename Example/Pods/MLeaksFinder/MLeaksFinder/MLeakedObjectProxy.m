@@ -80,13 +80,19 @@ static NSString * const kDoraemonMemoryLeakAlertKey = @"doraemon_memory_leak_ale
 }
 
 - (void)dealloc {
-    NSNumber *objectPtr = _objectPtr;
-    NSArray *viewStack = _viewStack;
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [leakedObjectPtrs removeObject:objectPtr];
-        [MLeaksMessenger alertWithTitle:@"Object Deallocated"
-                                message:[NSString stringWithFormat:@"%@", viewStack]];
-    });
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    BOOL memoryLeakAlert = [userDefaults boolForKey:kDoraemonMemoryLeakAlertKey];
+    
+    if (memoryLeakAlert) {
+        
+        NSNumber *objectPtr = _objectPtr;
+        NSArray *viewStack = _viewStack;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [leakedObjectPtrs removeObject:objectPtr];
+            [MLeaksMessenger alertWithTitle:@"Object Deallocated"
+                                    message:[NSString stringWithFormat:@"%@", viewStack]];
+        });
+    }
 }
 
 #pragma mark - UIAlertViewDelegate

@@ -13,7 +13,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DoraemonKitPlugins'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Plugins For DoraemonKit.'
 
 # This description is used to generate tags and improve search results.
@@ -34,12 +34,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'DoraemonKitPlugins/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DoraemonKitPlugins' => ['DoraemonKitPlugins/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'DoraemonKit/Core', '3.1.2'
   s.dependency 'MLeaksFinder', '2.0.1'
+  
 end
