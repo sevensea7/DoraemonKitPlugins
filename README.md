@@ -17,6 +17,7 @@ DoraemonKitPlugins is available through [CocoaPods](https://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
+source 'https://github.com/sevensea996/Specs.git'
 pod 'DoraemonKitPlugins'
 ```
 
