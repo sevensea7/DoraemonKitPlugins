@@ -4,11 +4,11 @@
 platform :ios, '10.0'
 
 target 'DoraemonKitPlugins_Example' do
+  pod 'DoraemonKit/Core'
   pod 'DoraemonKitPlugins', :path => '../'
   
   target 'DoraemonKitPlugins_Tests' do
     inherit! :search_paths
 
-    
   end
 end
