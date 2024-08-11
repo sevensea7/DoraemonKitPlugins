@@ -13,7 +13,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DoraemonKitPlugins'
-  s.version          = '0.1.5'
+  s.version          = '1.0.0'
   s.summary          = 'Plugins For DoraemonKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'DoraemonKitPlugins/Classes/**/*'
+  s.subspec 'Network' do |n|
+    s.source_files = 'DoraemonKitPlugins/Classes/Network/**/*'
+  end
   
   s.dependency 'DoraemonKit/Core'
   

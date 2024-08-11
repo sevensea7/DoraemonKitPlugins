@@ -4,7 +4,10 @@ PODS:
     - GCDWebServer
     - GCDWebServer/WebDAV
     - GCDWebServer/WebUploader
-  - DoraemonKitPlugins (0.1.5):
+  - DoraemonKitPlugins (1.0.0):
+    - DoraemonKit/Core
+    - DoraemonKitPlugins/Network (= 1.0.0)
+  - DoraemonKitPlugins/Network (1.0.0):
     - DoraemonKit/Core
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
@@ -33,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DoraemonKit: 7448814a80d9ca56bc8db9105c464b7ec2e62623
-  DoraemonKitPlugins: 532bcca253e16ecb41fa7676110c68f9d777d3b1
+  DoraemonKitPlugins: 26dc94124580a0a2fba1e390639073e0bdd117bf
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
 

@@ -1,6 +1,6 @@
 {
   "name": "DoraemonKitPlugins",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "summary": "Plugins For DoraemonKit.",
   "description": "Add Custom Plugins For DoraemonKit.",
   "homepage": "https://github.com/sevensea7/DoraemonKitPlugins",
@@ -13,15 +13,20 @@
   },
   "source": {
     "git": "https://github.com/sevensea7/DoraemonKitPlugins.git",
-    "tag": "0.1.5"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "DoraemonKitPlugins/Classes/**/*",
+  "source_files": "DoraemonKitPlugins/Classes/Network/**/*",
   "dependencies": {
     "DoraemonKit/Core": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Network"
+    }
+  ]
 }
