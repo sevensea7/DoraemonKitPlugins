@@ -7,13 +7,13 @@
 #
 
 # pod cache clean --all
-# pod spec lint DoraemonKitPlugins.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/sevensea996/Specs.git' --allow-warnings --use-libraries --verbose --skip-import-validation
+# pod spec lint DoraemonKitPlugins.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/sevensea7/Specs.git' --allow-warnings --use-libraries --verbose --skip-import-validation
 # pod repo push MySpecs DoraemonKitPlugins.podspec --allow-warnings --use-libraries --skip-import-validation
 
 
 Pod::Spec.new do |s|
   s.name             = 'DoraemonKitPlugins'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Plugins For DoraemonKit.'
 
 # This description is used to generate tags and improve search results.
@@ -24,17 +24,16 @@ Pod::Spec.new do |s|
 
    s.description      = 'Add Custom Plugins For DoraemonKit.'
 
-  s.homepage         = 'https://github.com/sevensea996/DoraemonKitPlugins'
+  s.homepage         = 'https://github.com/sevensea7/DoraemonKitPlugins'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sevensea996' => 'weihaideng@126.com' }
-  s.source           = { :git => 'https://github.com/sevensea996/DoraemonKitPlugins.git', :tag => s.version.to_s }
+  s.author           = { 'sevensea7' => 'weihaideng@126.com' }
+  s.source           = { :git => 'https://github.com/sevensea7/DoraemonKitPlugins.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'DoraemonKitPlugins/Classes/**/*'
   
-  s.dependency 'DoraemonKit/Core', '3.1.2'
-  s.dependency 'MLeaksFinder', '2.0.1'
+  s.dependency 'DoraemonKit/Core'
   
 end

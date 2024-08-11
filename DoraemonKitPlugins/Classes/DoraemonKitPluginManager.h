@@ -1,8 +1,8 @@
 //
 //  DoraemonKitPluginManager.h
-//  WMDoraemonKitPlugins
+//  DoraemonKitPlugins
 //
-//  Created by sevensea996 on 2022/2/17.
+//  Created by sevensea7 on 2022/2/17.
 //
 
 #import <Foundation/Foundation.h>

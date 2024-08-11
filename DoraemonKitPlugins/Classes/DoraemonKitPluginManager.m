@@ -1,23 +1,25 @@
 //
 //  DoraemonKitPluginManager.m
-//  WMDoraemonKitPlugins
+//  DoraemonKitPlugins
 //
-//  Created by sevensea996 on 2022/2/17.
+//  Created by sevensea7 on 2022/2/17.
 //
 
 #import "DoraemonKitPluginManager.h"
 #import <DoraemonKit/DoraemonManager.h>
+#import "DoraemonNetworkObserver.h"
 
 @implementation DoraemonKitPluginManager
 
 + (void)addCommonPlugins {
     DoraemonManager *doraemonManager = [DoraemonManager shareInstance];
     
-    [doraemonManager addPluginWithTitle:@"内存泄漏"
-                                   icon:@"doraemon_memory_leak"
-                                   desc:@"内存泄漏"
-                             pluginName:@"DoraemonMLeaksFinderPlugin"
-                               atModule:@"性能检测"];
+    DoraemonNetworkObserver.enabled = true;
+    [doraemonManager addPluginWithTitle:@"网络监测"
+                                   icon:@"doraemon_net"
+                                   desc:@"网络监测"
+                             pluginName:@"DoraemonNetworkPlugin"
+                               atModule:@"开发工具"];
     
 }
 

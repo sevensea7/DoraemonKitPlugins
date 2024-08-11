@@ -1,9 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/DoraemonKit" "${PODS_ROOT}/Headers/Public/DoraemonKitPlugins" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/GCDWebServer" "${PODS_ROOT}/Headers/Public/MLeaksFinder"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit" "${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKitPlugins" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer" "${PODS_CONFIGURATION_BUILD_DIR}/MLeaksFinder"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"DoraemonKit" -l"DoraemonKitPlugins" -l"FMDB" -l"GCDWebServer" -l"MLeaksFinder" -l"sqlite3" -l"xml2" -l"z" -framework "CFNetwork" -framework "MobileCoreServices"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DoraemonKit" "${PODS_ROOT}/Headers/Public/DoraemonKitPlugins" "${PODS_ROOT}/Headers/Public/GCDWebServer"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit" "${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKitPlugins" "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/DoraemonKit/DoraemonKit.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DoraemonKit" -l"DoraemonKitPlugins" -l"GCDWebServer" -l"xml2" -l"z" -framework "CFNetwork" -framework "MobileCoreServices"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/DoraemonKit/DoraemonKit.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
